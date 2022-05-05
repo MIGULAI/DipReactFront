@@ -1,0 +1,465 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+.wraper_add{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    left: 350px;
+    width: calc(100% - 350px);
+    flex-direction: column;
+}
+
+.loc_title{
+    padding: 0;
+    margin: 0;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+.place{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    min-height: 90vh;
+    flex-direction: row;
+    width: 100%;
+}
+
+.input_table{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.input_fuild{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.input_photo{
+    width: 40%;
+}
+
+.input_table .input_fuild span{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    padding-top: 1.5vh;
+}
+
+.input_fuild input , .input_fuild select {
+    margin: 10px;
+    width: 100%;
+}
+
+.table_form{
+    padding-top: 30px;
+}
+
+.table_form table tr td{
+    border: solid 1px black;
+    width: 10%;
+}
+
+.login_table{
+    padding-top: 5vh;
+    display: flex;
+    
+    align-items: center;
+}
+
+.login_form{
+    display: flex;
+
+}
+form .table_autors{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
+form .table_autors tbody{
+    width: 100%;
+}
+
+.table_autors tr {
+    width: 100%;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+
+.table_autors tr:target{
+    background-color: rgb(184, 182, 182);
+}
+
+.table_form .sub_table{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right{
+    display: flex;
+    width: 50%;
+}
+
+.ower_table{
+    padding-top: 1.5vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.ower_table .autor_list{
+    width: 100%;
+    height: 30vh;
+}
+
+.table_header{
+    height: 10%;
+}
+
+.autor_list tbody tr{
+    height: 10%;
+}
+
+.sub_table table{
+    border: solid 1px black;
+}
+
+.sub_table table tr td{
+    border: none;
+}
+.sub_table table tr:first-child td{
+    border: solid 1px black;
+}
+
+.not_make_plane{
+    background-color: red;
+}
+
+.make_plane{
+    background-color: white ;
+}
+
+.two_input_fuild{
+    display: flex;
+    padding-right: 10%;
+}
+
+.table_manipul_add_del{
+    display: flex;
+    flex-direction: row;
+}
+.add_button , .delete_button{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.submit_but{
+    margin-top: 2vh;
+    margin-left: 5%;
+}
+
+.add_button , .delete_button , .submit_but{
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #4D5BF9;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.add_button:hover , .delete_button:hover , .submit_but:hover{
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.add_button:hover:after , .delete_button:hover:after , .submit_but:hover {
+  opacity: .5;
+}
+
+.add_button:active , .delete_button:active , .submit_but:active {
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.add_button:active:after , .delete_button:active:after ,.submit_but:active:after {
+  opacity: 1;
+}
+
+.planning_header{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.planning_header form{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.analyze_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.analyze_form #autor_selector{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.analyze_form .submit_btn_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.analyze_form form{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vertical{
+    -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    width: 2% !important;
+}
+
+.small_not_vert{
+    width: 2% !important;
+}
+
+.date_sub_div{
+    align-self: center;
+    justify-self: center;
+}
+
+
+.null_ul{
+    display: flex;
+    width: 50%;
+}
+.null_ul li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main_fuild_analyze{
+    padding-left: 0%;
+}
+.main_subfuild_analyze{
+    padding-left: 5%;
+}
+
+.value_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.value_block .these , .value_block .articls, .value_block .scopus, .value_block .manuals {
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.right .input_fuild{
+    padding-top: 1vh;
+    padding-right: 10%;
+}
+
+.asistant_loop{
+    position:fixed;
+    display: inline;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    pointer-events: auto;
+}
+
+
+
+
+.tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -300px;
+    
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+
+
+  .asistant_loop:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+      min-height: 100vh;
+      background-color: #fff;
+  }
+  
+  .navigation{
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      bottom: 20px;
+      width: 300px;
+      border-radius: 10px;
+      box-sizing: initial;
+      border-left: 5px solid #4d5bf9;
+      background-color: #4d5bf9;
+      transition: 0.5s;
+  }
+  
+  .navigation ul
+  {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding-left: 5px;
+      padding-top: 40px;
+  
+  }
+  
+  .navigation ul li{
+      position: relative;
+      list-style: none;
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+  }
+  
+  .navigation ul li.active{
+      background: #fff;
+  }
+  
+  .navigation ul li.active a{
+      color: #333;
+  }
+  
+  .navigation ul li a{
+      position: relative;
+      display: flex;
+      width: 100%;
+      display: flex;
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .navigation ul li a .icon, .navigation ul li a .icon-button{
+      position: relative;
+      display: block;
+      min-width: 60px;
+      height: 60px;
+      line-height: 70px;
+      text-align: center;
+  }
+  
+  .navigation ul li a .icon ion-icon, .navigation ul li a .icon-button ion-icon{
+      font-size: 1.5em;
+  }
+  
+  
+  .navigation ul li a .icon-button {
+      display: block;
+      text-align: end;
+  }
+  
+  .navigation ul li a .title{
+      text-align: center;
+      display: block;
+      padding-left: 10px;
+      height: 60px;
+      line-height: 60px;
+      white-space: normal;
+  }
+  
+  .visible{
+      padding-top: 25%;
+      position: absolute;
+      visibility: visible;
+  }
+  
+  .invisible{
+      padding-top: 25%;
+      position: absolute;
+      visibility: collapse;
+  }
